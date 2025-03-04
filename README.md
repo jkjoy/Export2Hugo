@@ -1,6 +1,10 @@
 ## typecho-export-hugo
 Typecho 博客文章导出至 Hugo 插件
 
+## 我修改了什么
+
+- 使用 PHP 的 ZipArchive 来创建压缩包
+
 ## 如何使用
 
 点击右侧的`Download ZIP`按钮，下载完成之后解压得到类似`typecho-export-hugo-master`文件夹，将文件夹重命名为`Export2Hugo`,上传到Typecho目录`usr/plugins`,然后在后台启用插件。
